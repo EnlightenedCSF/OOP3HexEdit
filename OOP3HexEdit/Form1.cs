@@ -12,13 +12,18 @@ namespace OOP3HexEdit
 
         private void button1_Click(object sender, System.EventArgs e)
         {
-            var data = new Byte[40];
-            for (Byte i = 0; i < 40; i++)
+            var data = new Byte[100];
+            for (Byte i = 0; i < 100; i++)
             {
                 data[i] = i;
             }
 
             hexEdit1.Data = data;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

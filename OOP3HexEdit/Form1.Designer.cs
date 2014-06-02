@@ -32,7 +32,10 @@
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.button2 = new System.Windows.Forms.Button();
             this.hexEdit1 = new OOP3HexEdit.HexEdit(this.components);
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // label1
@@ -63,12 +66,32 @@
             this.textBox1.TabIndex = 3;
             this.textBox1.Text = "a5";
             // 
+            // panel1
+            // 
+            this.panel1.AllowDrop = true;
+            this.panel1.AutoScroll = true;
+            this.panel1.Controls.Add(this.button2);
+            this.panel1.Location = new System.Drawing.Point(154, 242);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 4;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(158, 53);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // hexEdit1
             // 
+            this.hexEdit1.AutoScroll = true;
             this.hexEdit1.Data = null;
             this.hexEdit1.Location = new System.Drawing.Point(12, 12);
             this.hexEdit1.Name = "hexEdit1";
-            this.hexEdit1.Size = new System.Drawing.Size(290, 373);
+            this.hexEdit1.Size = new System.Drawing.Size(262, 168);
             this.hexEdit1.TabIndex = 0;
             // 
             // Form1
@@ -76,12 +99,14 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(695, 467);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.hexEdit1);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -93,6 +118,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Button button2;
     }
 }
 
