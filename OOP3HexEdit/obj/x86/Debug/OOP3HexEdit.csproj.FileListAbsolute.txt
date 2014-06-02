@@ -1,0 +1,7 @@
+C:\Users\РЕТ\Desktop\OOP3HexEdit\OOP3HexEdit\bin\Debug\OOP3HexEdit.exe
+C:\Users\РЕТ\Desktop\OOP3HexEdit\OOP3HexEdit\bin\Debug\OOP3HexEdit.pdb
+C:\Users\РЕТ\Desktop\OOP3HexEdit\OOP3HexEdit\obj\x86\Debug\OOP3HexEdit.Form1.resources
+C:\Users\РЕТ\Desktop\OOP3HexEdit\OOP3HexEdit\obj\x86\Debug\OOP3HexEdit.Properties.Resources.resources
+C:\Users\РЕТ\Desktop\OOP3HexEdit\OOP3HexEdit\obj\x86\Debug\OOP3HexEdit.csproj.GenerateResource.Cache
+C:\Users\РЕТ\Desktop\OOP3HexEdit\OOP3HexEdit\obj\x86\Debug\OOP3HexEdit.exe
+C:\Users\РЕТ\Desktop\OOP3HexEdit\OOP3HexEdit\obj\x86\Debug\OOP3HexEdit.pdb
